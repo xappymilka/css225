@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Background</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>📚 My Background</h1>
+    <p>I’m a Computer Science student and future software engineer 🚀</p>
+    <a href="/">⬅ Back to Home</a>
+</body>
+</html>

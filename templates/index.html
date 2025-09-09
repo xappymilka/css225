@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+   
+    <h1>Hello, I’m Milka </h1>
+
+  
+    <img src="{{ url_for('static', filename='me.jpg') }}" alt="My Photo" width="200">
+
+    <h2>About Me</h2>
+    <p>
+        Hi! I’m Melika, a Computer Science student passionate about software engineering and AI. 
+        I enjoy coding, solving problems, and building cool projects.
+    </p>
+    <ul>
+        <a href="{{ url_for('hobbies')}}">My Hobbies</a> | 
+        <a href="{{ url_for('background')}}">My Background</a>
+    </ul>
+
+    <h2>Connect with me</h2>
+    <a href="https://github.com/xappymilka">GitHub</a> |
+    <a href="https://linkedin.com/in/melika-muktarova" target="_blank">LinkedIn</a>
+</body>
+</html>

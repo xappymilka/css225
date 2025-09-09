@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Background</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1> My Background</h1>
+    <p>I’m a junior Computer Science student at NLU . I am from Kyrgyzstan, but I was born and raised in Moscow.</p>
+
+    <img src="{{ url_for('static', filename='meee.jpg') }}" alt="Me again" width="300">
+
+    <a href="{{ url_for('home') }}">
+        <button>Back to Home</button>
+</body>
+</html>

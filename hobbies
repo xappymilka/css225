@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>🎨 My Hobbies</h1>
+    <p>I love coding, painting, and traveling.</p>
+    <a href="/">⬅ Back to Home</a>
+</body>
+</html>
